@@ -1,0 +1,5169 @@
+﻿<!-- https://github.com/Tyrrrz/DiscordChatExporter -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Particular Discord - super-mario-sunshine</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<style>body {
+    background-color: #36393E;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #0096CF;
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+div.pre {
+    background-color: #2F3136;
+    color: rgb(131, 148, 150);
+    font-family: Consolas, Courier New, Courier, Monospace;
+    margin-top: 4px;
+    padding: 8px;
+    white-space: pre-wrap;
+}
+
+span.pre {
+    background-color: #2F3136;
+    font-family: Consolas, Courier New, Courier, Monospace;
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: pre-wrap;
+}
+
+div#info {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+div#log { max-width: 100%; }
+
+img.guild-icon {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+div.info-right {
+    flex: 1;
+    margin-left: 10px;
+}
+
+div.guild-name {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+div.channel-name {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+div.misc { margin-top: 2px; }
+
+div.msg {
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.msg-left {
+    height: 40px;
+    width: 40px;
+}
+
+img.msg-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+div.msg-right {
+    flex: 1;
+    margin-left: 20px;
+}
+
+span.msg-user {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+span.msg-date {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .75rem;
+    margin-left: 5px;
+}
+
+span.msg-edited {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .8rem;
+    margin-left: 5px;
+}
+
+div.msg-content {
+    font-size: .9375rem;
+    padding-top: 5px;
+    word-break: break-all;
+}
+
+div.msg-attachment {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img.msg-attachment {
+    max-height: 500px;
+    max-width: 50%;
+}
+
+img.emoji {
+    height: 24px;
+    width: 24px;
+    vertical-align: -.4em;
+}
+
+span.mention {
+    font-weight: 600;
+}</style>
+</head>
+<body>
+<div id="info">
+<div class="info-left">
+<img class="guild-icon" src="https://cdn.discordapp.com/icons/422076778429808641/75c272c2a1b115de1037476ef693e7be.png" />
+</div>
+<div class="info-right">
+<div class="guild-name">Particular Discord</div>
+<div class="channel-name">super-mario-sunshine</div>
+<div class="misc">612 messages</div>
+</div>
+</div>
+<div id="log">
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">10-Mar-18 02:49 PM</span>
+<div class="msg-content">
+The first game of the month is, obviously, Super Mario Sunshine! Get the goop out of yer shoes and talk about our favorite mustache mascot!</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/422117960531050497/422118765850001408/Super_mario_sunshine.png">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/422117960531050497/422118765850001408/Super_mario_sunshine.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">17-Apr-18 01:15 AM</span>
+<div class="msg-content">
+Oh and, because this&#39;ll be our first game of the month ever, it starts now but will also go through May!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:48 PM</span>
+<div class="msg-content">
+Should I try and move conversation over here ha ha</div>
+<div class="msg-content">
+The camera is definitely wonky</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:49 PM</span>
+<div class="msg-content">
+you cant even inverse it...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:50 PM</span>
+<div class="msg-content">
+Oh, yeah that can be an issue</div>
+<div class="msg-content">
+I can&#39;t remember what game it was</div>
+<div class="msg-content">
+but it had an inversed camera<span class="msg-edited" title="20-Apr-18 03:50 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:50 PM</span>
+<div class="msg-content">
+i&#39;m playing splatoon all day and my camera over there is EXACTLY the wrong way</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:50 PM</span>
+<div class="msg-content">
+THAT&#39;S THE GAME</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:50 PM</span>
+<div class="msg-content">
+yea</div>
+<div class="msg-content">
+but i somehow managed it anyway :3</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:51 PM</span>
+<div class="msg-content">
+Maybe Odyssey too, not sure</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">20-Apr-18 03:51 PM</span>
+<div class="msg-content">
+<a href="https://imgflip.com/i/28sbw9">https://imgflip.com/i/28sbw9</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:52 PM</span>
+<div class="msg-content">
+That needs to go in the memes too</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">20-Apr-18 03:53 PM</span>
+<div class="msg-content">
+mama peach? iM yOuR MaMa???</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:53 PM</span>
+<div class="msg-content">
+I really enjoy the camera in Sunshine once I got used to it; but sometimes there is no question...it is a pain</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">20-Apr-18 03:53 PM</span>
+<div class="msg-content">
+Still gets me every time</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:53 PM</span>
+<div class="msg-content">
+lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:53 PM</span>
+<div class="msg-content">
+just imagine... <i>it&#39;s E3...</i>Nintendo&#39;s presentation is almost over...*nintendo be like &#39;hey, we got one more thing...super mario sunshine for nintendo switch, 1080p, full-HD remake, new shines, extra outfits, coming spring 2019...a man can still dream right?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:54 PM</span>
+<div class="msg-content">
+It makes no longical sense too Erikku</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/245208508864135168/aef6c759e3afbdf9fd5ccc4d7eb9a199.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="DizzyWaddleDoo#2691">DizzyWaddleDoo</span>
+<span class="msg-date">20-Apr-18 03:54 PM</span>
+<div class="msg-content">
+I&#39;d love an hd remake of Sunshine</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">20-Apr-18 03:54 PM</span>
+<div class="msg-content">
+If they do make a remake I’d really want them to bring back the stuff that got cut</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:54 PM</span>
+<div class="msg-content">
+People say Odyssey dlc will be Sunshine, but that&#39;s just speculation</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">20-Apr-18 03:54 PM</span>
+<div class="msg-content">
+And cut a certain...secret stage. maybe two</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:54 PM</span>
+<div class="msg-content">
+would be nice too</div>
+<div class="msg-content">
+odyssey&#39;s got some nice controls</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:55 PM</span>
+<div class="msg-content">
+I mean Pachinko is fine if it would just <i>work</i></div>
+<div class="msg-content">
+Death River just needs to not take 5 years to get to<span class="msg-edited" title="20-Apr-18 03:55 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:55 PM</span>
+<div class="msg-content">
+i didn&#39;t have any trouble with pachinko......</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">20-Apr-18 03:55 PM</span>
+<div class="msg-content">
+THE DIRTY RIVER MUST DIE</div>
+<div class="msg-content">
+or at least be less tedious to get to</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:56 PM</span>
+<div class="msg-content">
+why wait for the boat when you got glitches for death river &#128516;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/245208508864135168/aef6c759e3afbdf9fd5ccc4d7eb9a199.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="DizzyWaddleDoo#2691">DizzyWaddleDoo</span>
+<span class="msg-date">20-Apr-18 03:56 PM</span>
+<div class="msg-content">
+Oh no, if they fix a bunch of the wall clips in an hd version, I might have to go to the death river the legit way</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:56 PM</span>
+<div class="msg-content">
+^^^^^^</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:56 PM</span>
+<div class="msg-content">
+y&#39;all know nintendo...if they try to fix glitches in a remake, there&#39;d just be even more of them</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">20-Apr-18 03:57 PM</span>
+<div class="msg-content">
+I agree with the pachinko part if they cooked the level a bit more it would work. actually they should really fix the physics. or not.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:57 PM</span>
+<div class="msg-content">
+I can only imagine everyone trying all the Sunshine glitches in an hd remake and getting upset when they don&#39;t work</div>
+<div class="msg-content">
+Would it even be the same game? Ha ha</div>
+<div class="msg-content">
+Hopefully there&#39;d be more</div>
+<div class="msg-content">
+Odyssey sure has a lot more than I was expecting</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/245208508864135168/aef6c759e3afbdf9fd5ccc4d7eb9a199.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="DizzyWaddleDoo#2691">DizzyWaddleDoo</span>
+<span class="msg-date">20-Apr-18 03:58 PM</span>
+<div class="msg-content">
+<s>If you can&#39;t walk underwater than what even is the point</s></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:58 PM</span>
+<div class="msg-content">
+indeed &#128518;<span class="msg-edited" title="20-Apr-18 03:58 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 03:58 PM</span>
+<div class="msg-content">
+but they fixed the glydeon clip;-; (i have no idea how to write his name lol)</div>
+<div class="msg-content">
+i liked that</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 03:59 PM</span>
+<div class="msg-content">
+Glydon is a mistake imo. At the very least it ruins Balloon world for me. <i>Just fly anywhere you want</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">20-Apr-18 04:00 PM</span>
+<div class="msg-content">
+at least they didn’t fix that very convenient skip in darker side with glydon</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 04:00 PM</span>
+<div class="msg-content">
+yea it does ruin balloon world but everything else...it&#39;s so FUN to mess arround with that glitch</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 04:01 PM</span>
+<div class="msg-content">
+<i>People have similar concerns with fludd but <b>it&#39;s different</b></i><span class="msg-edited" title="20-Apr-18 04:01 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 04:01 PM</span>
+<div class="msg-content">
+i like fludd : D</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">20-Apr-18 04:01 PM</span>
+<div class="msg-content">
+EXACTLY</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">20-Apr-18 04:02 PM</span>
+<div class="msg-content">
+i like splatoon too so that&#39;s actually not that much of a surprise</div>
+<div class="msg-content">
+if only the controls werent the WRONG way</div>
+<div class="msg-content">
+after sunshine i played luigis mansion and guess what? the controls were again different, being only HALF inverted</div>
+<div class="msg-content">
+it was such pain ;-;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/317070214108020737/927e699a937291c63a15a1ece4200d6a.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fighter206#2563">fighter206</span>
+<span class="msg-date">21-Apr-18 12:17 AM</span>
+<div class="msg-content">
+What if there was a sunshine mod that changed fludd so it sprayed our ink and stuff</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-Apr-18 12:22 AM</span>
+<div class="msg-content">
+I remember when I was younger, trying to cover up as much of the ground as I could with goop, using those goop jellyfish. But to make that the point of the game? Well I guess that would be Splatoon ha ha</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/421178943505170442/463df59b609870d4149d117430562548.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Multi (FusionDragoon)#3661">Multi (FusionDragoon)</span>
+<span class="msg-date">21-Apr-18 02:00 AM</span>
+<div class="msg-content">
+Sunshine has so many oddities in it that it felt so fun to just run around and spray everything to see if something would happen</div>
+<div class="msg-content">
+The good ol days as a young lad. Honestly, why I greatly prefer Sunshine over 64. All the miniscule little details that are just there for fun.</div>
+<div class="msg-content">
+Plus the game has a super chill ost so it&#39;s just relaxing to play</div>
+<div class="msg-content">
+&#128512;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/140223023037939712/4a7bdeb804ca35d5a5081fc509e5d2d6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Age#5636">Age</span>
+<span class="msg-date">21-Apr-18 09:18 AM</span>
+<div class="msg-content">
+De Blob is all about getting ink everywhere!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/138121107352846336/f0c6fa4930b9983d94f435474be1d814.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Soup#3230">Soup</span>
+<span class="msg-date">21-Apr-18 11:18 AM</span>
+<div class="msg-content">
+^ I LOVED De Blob!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/421178943505170442/463df59b609870d4149d117430562548.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Multi (FusionDragoon)#3661">Multi (FusionDragoon)</span>
+<span class="msg-date">21-Apr-18 03:10 PM</span>
+<div class="msg-content">
+Haven&#39;t played De Blob but may give it a shot when it rereleases</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/186933498601406464/a_5aae2ae6ea1ae75e48be3c9dffde97d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ǝǝɟɟoɔıɟɟoʞ#1337">ǝǝɟɟoɔıɟɟoʞ</span>
+<span class="msg-date">21-Apr-18 05:34 PM</span>
+<div class="msg-content">
+super mario sunshine is my favorite game ever haha</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/138121107352846336/f0c6fa4930b9983d94f435474be1d814.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Soup#3230">Soup</span>
+<span class="msg-date">21-Apr-18 07:03 PM</span>
+<div class="msg-content">
+Its on Steam I believe, unless you&#39;re referring to some sort of upcoming rerelease</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-Apr-18 07:03 PM</span>
+<div class="msg-content">
+I believe it&#39;s re-releasing on Switch<span class="msg-edited" title="21-Apr-18 07:03 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/138121107352846336/f0c6fa4930b9983d94f435474be1d814.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Soup#3230">Soup</span>
+<span class="msg-date">21-Apr-18 07:04 PM</span>
+<div class="msg-content">
+Ah</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/421178943505170442/463df59b609870d4149d117430562548.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Multi (FusionDragoon)#3661">Multi (FusionDragoon)</span>
+<span class="msg-date">21-Apr-18 07:23 PM</span>
+<div class="msg-content">
+THQ Nordic got the rights back and is going to rerelease it on consoles</div>
+<div class="msg-content">
+Or at least on Switch</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/171415769412796416/91f14b9f4b0aeda6bb89cef21432e41b.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Ogmo#4543">Ogmo</span>
+<span class="msg-date">21-Apr-18 09:31 PM</span>
+<div class="msg-content">
+I&#39;m playing sunshine right now!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-Apr-18 09:37 PM</span>
+<div class="msg-content">
+Running through the game or trying some tricks out?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/171415769412796416/91f14b9f4b0aeda6bb89cef21432e41b.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Ogmo#4543">Ogmo</span>
+<span class="msg-date">21-Apr-18 09:38 PM</span>
+<div class="msg-content">
+I started from the beginning, new save file\</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-Apr-18 09:38 PM</span>
+<div class="msg-content">
+Woo! Enjoy!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/171415769412796416/91f14b9f4b0aeda6bb89cef21432e41b.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Ogmo#4543">Ogmo</span>
+<span class="msg-date">21-Apr-18 09:40 PM</span>
+<div class="msg-content">
+I will! For some reason, I love starting brand new in this game. I think it&#39;s because of the nostalgic feelings I get from doing the same things from when I was younger.</div>
+<div class="msg-content">
+I love it!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-Apr-18 09:41 PM</span>
+<div class="msg-content">
+Certain games will do that!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/269302143423479809/ad5d0329938d98758075e20bceec6a40.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Ctoan#427">Ctoan</span>
+<span class="msg-date">22-Apr-18 11:12 PM</span>
+<div class="msg-content">
+One of my favorite games of all time. One thing that interests me is the beta content. As you can tell by the jankiness, SMS was pretty rushed in development and a TON of stuff was cut. It was like a completely different game at one point with many more levels and an entirely different way of accessing them (it used a train system).<span class="msg-edited" title="22-Apr-18 11:13 PM">(edited)</span></div>
+<div class="msg-content">
+Beta level names:<br />Lighthouse Island<br />Battleship Island<br />Hotel Lacrima<br />Erto Rock<br />Flame Temple<br />Plus Corona Mountain was (supposedly) supposed to be a full level.<span class="msg-edited" title="22-Apr-18 11:24 PM">(edited)</span></div>
+<div class="msg-content">
+It&#39;d be really cool to get a HD SM64DS style remake with all this stuff intact for the Switch.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/186933498601406464/a_5aae2ae6ea1ae75e48be3c9dffde97d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ǝǝɟɟoɔıɟɟoʞ#1337">ǝǝɟɟoɔıɟɟoʞ</span>
+<span class="msg-date">23-Apr-18 07:39 AM</span>
+<div class="msg-content">
+WHAT</div>
+<div class="msg-content">
+Really?</div>
+<div class="msg-content">
+If i ever got 3 wishes</div>
+<div class="msg-content">
+oen would be to be able to play any game i want at any phase of devolpment</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/245208508864135168/aef6c759e3afbdf9fd5ccc4d7eb9a199.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="DizzyWaddleDoo#2691">DizzyWaddleDoo</span>
+<span class="msg-date">24-Apr-18 04:43 PM</span>
+<div class="msg-content">
+Oof I just found a glitch</div>
+<div class="msg-content">
+I did a side flip thing over this bush in bianco hills and Mario just got stuck in midair</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/422117960531050497/438439928041439232/20180424_154217.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/422117960531050497/438439928041439232/20180424_154217.jpg" />
+</a>
+</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/422117960531050497/438440057276334080/JPEG_20180424_154410.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/422117960531050497/438440057276334080/JPEG_20180424_154410.jpg" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">24-Apr-18 04:57 PM</span>
+<div class="msg-content">
+whoa!</div>
+<div class="msg-content">
+That&#39;s really random</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/245208508864135168/aef6c759e3afbdf9fd5ccc4d7eb9a199.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="DizzyWaddleDoo#2691">DizzyWaddleDoo</span>
+<span class="msg-date">24-Apr-18 05:01 PM</span>
+<div class="msg-content">
+At least the game saves often</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/138121107352846336/f0c6fa4930b9983d94f435474be1d814.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Soup#3230">Soup</span>
+<span class="msg-date">24-Apr-18 08:42 PM</span>
+<div class="msg-content">
+I thought I sent this but maybe now</div>
+<div class="msg-content">
+Not*</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/422117960531050497/438500091809234944/image.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/422117960531050497/438500091809234944/image.jpg" />
+</a>
+</div>
+<div class="msg-content">
+Float fish</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/125854497485357056/5dda9f614ce99cd3a1a26c4c67893953.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stepil#6324">Stepil</span>
+<span class="msg-date">25-Apr-18 12:53 AM</span>
+<div class="msg-content">
+gosh dang I love this game</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/436967978295230464/42e46f3e1068a04424b19351fe2cbbd5.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="LarSsTDC#5813">LarSsTDC</span>
+<span class="msg-date">26-Apr-18 09:08 AM</span>
+<div class="msg-content">
+Don&#39;t forget the glitch in the pachinko machine</div>
+<div class="msg-content">
+The one that spawns 100 decillion stars</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/138121107352846336/f0c6fa4930b9983d94f435474be1d814.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Soup#3230">Soup</span>
+<span class="msg-date">26-Apr-18 10:17 AM</span>
+<div class="msg-content">
+Oh my god yeah</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/186933498601406464/a_5aae2ae6ea1ae75e48be3c9dffde97d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ǝǝɟɟoɔıɟɟoʞ#1337">ǝǝɟɟoɔıɟɟoʞ</span>
+<span class="msg-date">27-Apr-18 11:25 AM</span>
+<div class="msg-content">
+Anyone have any fun challenges?</div>
+<div class="msg-content">
+Im about to play another run</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/245208508864135168/aef6c759e3afbdf9fd5ccc4d7eb9a199.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="DizzyWaddleDoo#2691">DizzyWaddleDoo</span>
+<span class="msg-date">27-Apr-18 06:24 PM</span>
+<div class="msg-content">
+So NPC&#39;s covered in goop pause their animation if they&#39;re too far away</div>
+<div class="msg-content">
+And if you pause it at the right time, it keeps spawning goop particles from them shaking it off nonstop</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">27-Apr-18 06:47 PM</span>
+<div class="msg-content">
+Oh how neat. I believe they always pause their animation if you get too far away. I wonder if you could stop them from falling into goop...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">30-Apr-18 02:01 AM</span>
+<div class="msg-content">
+i just gotta get this out, the reason i love your super mario sunshine videos is that they&#39;re just made exactly the way i used to play this game when i was a kid (and still do sometimes,) exploring every nook and cranny and making stupid challenges for myself<br />this game is such a big time waster to me and i love it</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">30-Apr-18 02:06 AM</span>
+<div class="msg-content">
+There&#39;s a quote I saw the other day...ah ha here it is</div>
+<div class="msg-content">
+<i>Friendship is born at that moment when one person says to another: What! You too? I thought I was the only one</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">30-Apr-18 02:08 AM</span>
+<div class="msg-content">
+^^^^^^^^^^</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142421828391010304/0f39fb6de395ec21b9b85918cc63e536.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="QED#423">QED</span>
+<span class="msg-date">30-Apr-18 11:52 AM</span>
+<div class="msg-content">
+Re-watching the SMS videos made me remember why it was my favorite 3D mario game</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">01-May-18 02:21 AM</span>
+<div class="msg-content">
+Hmmm</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">01-May-18 03:53 PM</span>
+<div class="msg-content">
+Pinned a message.</div>
+<div class="msg-content">
+Pinned a message.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">01-May-18 03:54 PM</span>
+<div class="msg-content">
+woo first 2 pinned Messages</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">01-May-18 03:57 PM</span>
+<div class="msg-content">
+In this channel anyway</div>
+<div class="msg-content">
+<span class="mention">#particular-mushroom</span> has one</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">01-May-18 04:02 PM</span>
+<div class="msg-content">
+ah</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142421828391010304/0f39fb6de395ec21b9b85918cc63e536.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="QED#423">QED</span>
+<span class="msg-date">01-May-18 05:57 PM</span>
+<div class="msg-content">
+Best song is sunshine?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/138121107352846336/f0c6fa4930b9983d94f435474be1d814.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Soup#3230">Soup</span>
+<span class="msg-date">01-May-18 06:42 PM</span>
+<div class="msg-content">
+I’m partial to the iconic plaza theme</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">01-May-18 06:43 PM</span>
+<div class="msg-content">
+yeah same</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142421828391010304/0f39fb6de395ec21b9b85918cc63e536.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="QED#423">QED</span>
+<span class="msg-date">01-May-18 06:58 PM</span>
+<div class="msg-content">
+I am too but something about Pianta Village that I enjoy</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">01-May-18 07:33 PM</span>
+<div class="msg-content">
+Ricco Harbor come on. Really though a lot of good tracks to choose from</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">01-May-18 07:33 PM</span>
+<div class="msg-content">
+i love them all</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/271820195570515981/14fc03e89420763998eead2ee63fc076.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="TheRebeloftheRebellion#9994">TheRebeloftheRebellion</span>
+<span class="msg-date">01-May-18 07:33 PM</span>
+<div class="msg-content">
+Sunshine is great. One of these days I really should finish it.</div>
+<div class="msg-content">
+One of my childhood games.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142421828391010304/0f39fb6de395ec21b9b85918cc63e536.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="QED#423">QED</span>
+<span class="msg-date">01-May-18 08:18 PM</span>
+<div class="msg-content">
+How bout this one. Worst. Song.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/125854497485357056/5dda9f614ce99cd3a1a26c4c67893953.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stepil#6324">Stepil</span>
+<span class="msg-date">02-May-18 01:46 AM</span>
+<div class="msg-content">
+the boss theme is pretty weak</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/186933498601406464/a_5aae2ae6ea1ae75e48be3c9dffde97d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ǝǝɟɟoɔıɟɟoʞ#1337">ǝǝɟɟoɔıɟɟoʞ</span>
+<span class="msg-date">02-May-18 08:04 AM</span>
+<div class="msg-content">
+The boss theme is the reason water terrified me</div>
+<div class="msg-content">
+Subnautica is actually the scariest game ive ever played</div>
+<div class="msg-content">
+Being deep underwater in fog with the crabsquid sounds, then seeing it jump  at me through the water like nothings there</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">02-May-18 08:06 AM</span>
+<div class="msg-content">
+same. still haven&#39;t finished it cause i may or may not have gotten jumpscared by a something i&#39;m sure you might know</div>
+<div class="msg-content">
+<i>cough</i> Reaper <i>cough</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/186933498601406464/a_5aae2ae6ea1ae75e48be3c9dffde97d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ǝǝɟɟoɔıɟɟoʞ#1337">ǝǝɟɟoɔıɟɟoʞ</span>
+<span class="msg-date">02-May-18 08:13 AM</span>
+<div class="msg-content">
+haha</div>
+<div class="msg-content">
+i bought subnautica a really really long time ago</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">02-May-18 01:12 PM</span>
+<div class="msg-content">
+I still like it a lot, but yeah the boss theme isn&#39;t the best. Bowser though. Is that even a music track?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142421828391010304/0f39fb6de395ec21b9b85918cc63e536.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="QED#423">QED</span>
+<span class="msg-date">02-May-18 02:43 PM</span>
+<div class="msg-content">
+I forgot he had a theme.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">02-May-18 10:07 PM</span>
+<div class="msg-content">
+imma be honest, i actually kinda liked bowser&#39;s voice actor in sms, and i think that voice actor was also in toadstool tour</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">02-May-18 10:24 PM</span>
+<div class="msg-content">
+Yeah I wish they kept it</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142421828391010304/0f39fb6de395ec21b9b85918cc63e536.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="QED#423">QED</span>
+<span class="msg-date">03-May-18 12:55 AM</span>
+<div class="msg-content">
+I didn&#39;t mine the voice acting in the game</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">11-May-18 05:02 AM</span>
+<div class="msg-content">
+honestly the atmosphere of this game is so good and relaxing i just happily watched an entire 3-hour speedrun in one sitting</div>
+<div class="msg-content">
+would gladly do it again</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/247915466310287361/2c2d62be24857326d5c77f59f21a4b80.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Morufo_Naito#2971">Morufo_Naito</span>
+<span class="msg-date">11-May-18 09:55 AM</span>
+<div class="msg-content">
+Pretty random remark but I found out Yoshi eats fruit automatically if you leave him near some<br />I like to leave him in that beach house on Gelato Beach</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/140223023037939712/4a7bdeb804ca35d5a5081fc509e5d2d6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Age#5636">Age</span>
+<span class="msg-date">11-May-18 02:57 PM</span>
+<div class="msg-content">
+I watched the hour long speedrun history video for SMS today, it was a good watch</div>
+<div class="msg-content">
+<a href="https://www.youtube.com/watch?v=oudZMniib08">https://www.youtube.com/watch?v=oudZMniib08</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142421828391010304/0f39fb6de395ec21b9b85918cc63e536.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="QED#423">QED</span>
+<span class="msg-date">11-May-18 03:46 PM</span>
+<div class="msg-content">
+It&#39;s very good. Well put together.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">12-May-18 01:58 PM</span>
+<div class="msg-content">
+i would not be able to do this xD <a href="https://youtu.be/emEEBknv9ic">https://youtu.be/emEEBknv9ic</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">13-May-18 01:08 AM</span>
+<div class="msg-content">
+yoooo they cover my hometown</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">13-May-18 02:20 AM</span>
+<div class="msg-content">
+in glitches and graffiti, and moving icky paint-like goop, and memes stuck in comments sections, and water.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">13-May-18 02:20 AM</span>
+<div class="msg-content">
+and piantas in duck tubes</div>
+<div class="msg-content">
+and mispronounciations</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">13-May-18 02:21 AM</span>
+<div class="msg-content">
+and bad lipsynching, and voice actiong.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">13-May-18 02:21 AM</span>
+<div class="msg-content">
+beaautiful</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">13-May-18 02:22 AM</span>
+<div class="msg-content">
+I just need to talk to the other two, right?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">13-May-18 02:23 AM</span>
+<div class="msg-content">
+three</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">13-May-18 02:25 AM</span>
+<div class="msg-content">
+you&#39;re one of the three, i believe.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">13-May-18 02:26 AM</span>
+<div class="msg-content">
+no</div>
+<div class="msg-content">
+im the 4th one that didn&#39;t show up that day</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">13-May-18 02:26 AM</span>
+<div class="msg-content">
+<img class="emoji" title=":MarioSurprisedFace:" src="https://cdn.discordapp.com/emojis/422079496573943809.png" /></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/227922749031448576/a_33463c2d3335fc80f30de3d30220a13d.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Erikku#1658">Erikku</span>
+<span class="msg-date">14-May-18 02:17 AM</span>
+<div class="msg-content">
+dark</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391491621759221761/7d1751a60089ee00d0d71cdf89bb5e8f.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Just an annoying dog#532">Just an annoying dog</span>
+<span class="msg-date">14-May-18 02:34 PM</span>
+<div class="msg-content">
+i think it&#39;s about time for a new game of the month eh mushy?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">14-May-18 02:36 PM</span>
+<div class="msg-content">
+See the pins!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">14-May-18 02:40 PM</span>
+<div class="msg-content">
+next game of the month suggestion: john cenas sexy high school adventure</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">14-May-18 02:44 PM</span>
+<div class="msg-content">
+-_-</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">14-May-18 02:44 PM</span>
+<div class="msg-content">
+Gooper Blooper Extreme Sleepover?</div>
+<div class="msg-content">
+<i>I&#39;m not gonna let him go, man.</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 08:57 PM</span>
+<div class="msg-content">
+i think this might be fake but if it is, it is a pretty damn good fake <a href="https://youtu.be/HPhnYMC9Hcg">https://youtu.be/HPhnYMC9Hcg</a></div>
+<div class="msg-content">
+even the music sounds like it&#39;s from odyssey</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 08:59 PM</span>
+<div class="msg-content">
+First red flag is always if the character doesn&#39;t move</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 08:59 PM</span>
+<div class="msg-content">
+yeah</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 08:59 PM</span>
+<div class="msg-content">
+Camera movement is the hardest thing to edit in. So I only believe leaks at all if they have that.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">15-May-18 09:00 PM</span>
+<div class="msg-content">
+It&#39;d be really nice</div>
+<div class="msg-content">
+And is he most likely DLC if anything</div>
+<div class="msg-content">
+But</div>
+<div class="msg-content">
+Yeah this is kinda ehhhhh</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:01 PM</span>
+<div class="msg-content">
+(<s>also i don&#39;t know if i was meant to post that in here cause it is odyssey but it&#39;s isle delfino in odyssey but isle delfino is from sunshine so idk</s>)</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 09:04 PM</span>
+<div class="msg-content">
+All good</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">15-May-18 09:06 PM</span>
+<div class="msg-content">
+Fludd is a cooler companion than Cappy prove me wrong<span class="msg-edited" title="15-May-18 09:06 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:08 PM</span>
+<div class="msg-content">
+You can&#39;t.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:09 PM</span>
+<div class="msg-content">
+Fludd is OG companion</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:10 PM</span>
+<div class="msg-content">
+anyone who has even moderate hate towards fludd is getting hunted by the riders</div>
+<div class="msg-content">
+can cappy be a water jetpack? no<br />can cappy be a zoomer or a rocket? no<br />did cappy get into Mario Kart Arcade DX? no</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">15-May-18 09:11 PM</span>
+<div class="msg-content">
+Did Cappy get into smash brothers?</div>
+<div class="msg-content">
+Checkmate.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:11 PM</span>
+<div class="msg-content">
+fair enough.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:12 PM</span>
+<div class="msg-content">
+i mean techically cappy can be a jetpack and a zoomer and a rocket</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:12 PM</span>
+<div class="msg-content">
+no</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:12 PM</span>
+<div class="msg-content">
+fludd is also in smash.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:12 PM</span>
+<div class="msg-content">
+but it would be mario</div>
+<div class="msg-content">
+not cappy</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:12 PM</span>
+<div class="msg-content">
+tru</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:12 PM</span>
+<div class="msg-content">
+im with the drr.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:12 PM</span>
+<div class="msg-content">
+Cappy is just a hat</div>
+<div class="msg-content">
+Now Flood is a real machine</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:13 PM</span>
+<div class="msg-content">
+ye</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:14 PM</span>
+<div class="msg-content">
+Was Cappy made by lord god E. Gadd, I think not.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:14 PM</span>
+<div class="msg-content">
+or........ WAS HE?!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:14 PM</span>
+<div class="msg-content">
+no</div>
+<div class="msg-content">
+he wasn&#39;t</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:14 PM</span>
+<div class="msg-content">
+plottwist E. Gadd made all of the hat kingdom</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:15 PM</span>
+<div class="msg-content">
+plottwist E. Gadd made ALL of the kingdoms</div>
+<div class="msg-content">
+except  mushroom of course</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:15 PM</span>
+<div class="msg-content">
+all he had to do was use the magical paint brush</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:15 PM</span>
+<div class="msg-content">
+wuooo!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:15 PM</span>
+<div class="msg-content">
+plottwist E. Gadd deleted Delfino Plaza from Odyssey</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:16 PM</span>
+<div class="msg-content">
+plottwist cappy did that out of jealousy of fludd</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:16 PM</span>
+<div class="msg-content">
+cappy will be the villain of the delfino odyssey dlc</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:16 PM</span>
+<div class="msg-content">
+plottwists, cappy is E. Gadd</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:16 PM</span>
+<div class="msg-content">
+GASP</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:17 PM</span>
+<div class="msg-content">
+plottwist E. Gadd is actually waluigi&#39;s dad</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:17 PM</span>
+<div class="msg-content">
+GAAAAAAAAAASP</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:17 PM</span>
+<div class="msg-content">
+but then hows Waluigi tall?</div>
+<div class="msg-content">
+it makes a no sense</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:17 PM</span>
+<div class="msg-content">
+E. Gadds old</div>
+<div class="msg-content">
+Waluigi is young</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:17 PM</span>
+<div class="msg-content">
+Im sold</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:17 PM</span>
+<div class="msg-content">
+Waluigi is a big boi</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:17 PM</span>
+<div class="msg-content">
+plot twist! cappy is a dead yoshi that Mario dropped down a pit trying to make that jump.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:18 PM</span>
+<div class="msg-content">
+you&#39;re all forgetting someone important that is truly Waluigi&#39;s dad</div>
+<div class="msg-content">
+Lanky Kong</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:18 PM</span>
+<div class="msg-content">
+he has no style, he has no grace that kong has a funny face.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:19 PM</span>
+<div class="msg-content">
+he gave birth, and it was wrong<br />thats why we never see that kong</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:19 PM</span>
+<div class="msg-content">
+but Waluigi has all the style, all the grace.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:19 PM</span>
+<div class="msg-content">
+That would explain why Waluigi&#39;s so funky, his uncles Funky Kong</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:19 PM</span>
+<div class="msg-content">
+wait</div>
+<div class="msg-content">
+Does that mean lanky kong and E. Gadd are gaY</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:21 PM</span>
+<div class="msg-content">
+But wait, what if, now hear me out, E. Gadd is not gay but homosapien</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:21 PM</span>
+<div class="msg-content">
+LE GASP</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:21 PM</span>
+<div class="msg-content">
+GASPY</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:21 PM</span>
+<div class="msg-content">
+but wait, hear me out now, what if Lanky is a girl</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:22 PM</span>
+<div class="msg-content">
+but wait, out me hear now, what if Waluigi was both of their fathers al along</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:22 PM</span>
+<div class="msg-content">
+HAVE YOU FIGURED IT OUT?!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:22 PM</span>
+<div class="msg-content">
+but hear me out, Lanky asexually reproduces and Waluigi doesnt exist</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:23 PM</span>
+<div class="msg-content">
+<i>head explodes</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:23 PM</span>
+<div class="msg-content">
+mushroom we&#39;re solving world hunger get in here please thank you</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:24 PM</span>
+<div class="msg-content">
+I got it.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:24 PM</span>
+<div class="msg-content">
+I think the next problem we need to solve is, Who really is Waluigi?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:24 PM</span>
+<div class="msg-content">
+he&#39;s waluigi</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:24 PM</span>
+<div class="msg-content">
+Spoiler alert, Its Thanos</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:24 PM</span>
+<div class="msg-content">
+<b>hums ricco harbor theme</b> <span class="mention" title="MasterWario#4547">@MasterWario</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:24 PM</span>
+<div class="msg-content">
+solved</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">15-May-18 09:24 PM</span>
+<div class="msg-content">
+World hunger solution: Asexual reproduction.</div>
+<div class="msg-content">
+Apparently.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:25 PM</span>
+<div class="msg-content">
+now here&#39;s the real question</div>
+<div class="msg-content">
+how did waluigi get such a beautiful NOSE</div>
+<div class="msg-content">
+LOOK AT THE THING</div>
+<div class="msg-content">
+<img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /></div>
+<div class="msg-content">
+BEAUTIFUL</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:25 PM</span>
+<div class="msg-content">
+he got it from Wario&#39;s alternate universe self</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">15-May-18 09:25 PM</span>
+<div class="msg-content">
+It&#39;s a Wa family thing.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:26 PM</span>
+<div class="msg-content">
+Easy, Dr. Mario gave him plastic surgery</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:26 PM</span>
+<div class="msg-content">
+here&#39;s another question. is Doctor Mario Mario or is it Jumpman</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:27 PM</span>
+<div class="msg-content">
+Now Here me out, Dr. Mario is Waluigi</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">15-May-18 09:27 PM</span>
+<div class="msg-content">
+Mario <i>is</i> Jumpman.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:28 PM</span>
+<div class="msg-content">
+Mario is Mr. video.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:28 PM</span>
+<div class="msg-content">
+now hear me out, Dr. luigi found the Particular line of plants</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">15-May-18 09:28 PM</span>
+<div class="msg-content">
+There are canonnically more than 4 Mario Brothers. Discuss.</div>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/422117960531050497/446121818466811904/WarioSMBSS.jpg">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/422117960531050497/446121818466811904/WarioSMBSS.jpg" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:29 PM</span>
+<div class="msg-content">
+bario!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:29 PM</span>
+<div class="msg-content">
+goouigi</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:29 PM</span>
+<div class="msg-content">
+wario and wuigi.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:29 PM</span>
+<div class="msg-content">
+Whiluigi</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:29 PM</span>
+<div class="msg-content">
+Pario</div>
+<div class="msg-content">
+Puigi</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:29 PM</span>
+<div class="msg-content">
+lario and muigi.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:30 PM</span>
+<div class="msg-content">
+i love how this started with Mario odyssey and then turned into this xD</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:30 PM</span>
+<div class="msg-content">
+Yes.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:30 PM</span>
+<div class="msg-content">
+now hear me out</div>
+<div class="msg-content">
+WHAT IF THESE EXCESS MARIO BROS BECOME COSTUMES FOR FLUDD IN SUPER WALUIGI ODYSSEY</div>
+<div class="msg-content">
+boom</div>
+<div class="msg-content">
+looped it back around</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">15-May-18 09:30 PM</span>
+<div class="msg-content">
+<i>mind explodes</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:31 PM</span>
+<div class="msg-content">
+this might be a world-ending theory, but it might work.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:31 PM</span>
+<div class="msg-content">
+someone tell Mushroom</div>
+<div class="msg-content">
+he has the power to make this canon</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:32 PM</span>
+<div class="msg-content">
+hang on,</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:32 PM</span>
+<div class="msg-content">
+Wrong, because in Mario Goes Missing we find out that Waluigi is just a figment of Yoshi&#39;s imagination</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:32 PM</span>
+<div class="msg-content">
+DOO POW DOPEEDOBEEDOOBE  ....</div>
+<div class="msg-content">
+DOOP PWOW !</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:34 PM</span>
+<div class="msg-content">
+maybe pinging would work better</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:34 PM</span>
+<div class="msg-content">
+<span class="mention" title="MasterWario#4547">@MasterWario</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/157684687379103744/c012206864270c11831e6acecdd8074c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Stone#5173">Stone</span>
+<span class="msg-date">15-May-18 09:35 PM</span>
+<div class="msg-content">
+I like how we just changed the world in 10 minutes.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:35 PM</span>
+<div class="msg-content">
+honestly</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:36 PM</span>
+<div class="msg-content">
+DRR, how might i be able to talk to all of the duck ring riders?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:36 PM</span>
+<div class="msg-content">
+you have to go to episode 8 in ricco harbor</div>
+<div class="msg-content">
+and stand in some very precise spots</div>
+<div class="msg-content">
+then talk to us</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:37 PM</span>
+<div class="msg-content">
+1/4 on my way.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:37 PM</span>
+<div class="msg-content">
+yeee</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:37 PM</span>
+<div class="msg-content">
+are there other methods?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:38 PM</span>
+<div class="msg-content">
+no</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">15-May-18 09:38 PM</span>
+<div class="msg-content">
+alrighty.</div>
+<div class="msg-content">
+have a gooper blooper day.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 09:52 PM</span>
+<div class="msg-content">
+So what&#39;s the deal here? Why was I pinged?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:52 PM</span>
+<div class="msg-content">
+We figured out the problems of the world</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 09:52 PM</span>
+<div class="msg-content">
+lol that&#39;s optimistic</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:52 PM</span>
+<div class="msg-content">
+just read up it explains it aLL</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 09:52 PM</span>
+<div class="msg-content">
+No I read it. I still don&#39;t understand</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:52 PM</span>
+<div class="msg-content">
+oh</div>
+<div class="msg-content">
+well ya see Waluigi is the supreme ruler of the world and fludd is better than cappy so fludd gets unique costumes for each of the excess Mario Bros</div>
+<div class="msg-content">
+done</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 09:54 PM</span>
+<div class="msg-content">
+wat</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">15-May-18 09:54 PM</span>
+<div class="msg-content">
+!wah</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/437672820684619786/8e5d90337ebc084cca483ddc78d18171.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="particular-bot#240">particular-bot</span>
+<span class="msg-date">15-May-18 09:54 PM</span>
+<div class="msg-content">
+<img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /> <img class="emoji" title=":wah:" src="https://cdn.discordapp.com/emojis/435657575288274945.png" /></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">15-May-18 09:55 PM</span>
+<div class="msg-content">
+I...</div>
+<div class="msg-content">
+what</div>
+<div class="msg-content">
+I don&#39;t know man</div>
+<div class="msg-content">
+Probably talk to a therapist</div>
+<div class="msg-content">
+Or grow a mustache, sometimes that fixes problems</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:55 PM</span>
+<div class="msg-content">
+you imply only one is needed</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">15-May-18 09:55 PM</span>
+<div class="msg-content">
+TWO MUSTACHES</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:56 PM</span>
+<div class="msg-content">
+oH SHOOT</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">15-May-18 09:56 PM</span>
+<div class="msg-content">
+i know you were talking about therapists but TWO MUSTACHES</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:56 PM</span>
+<div class="msg-content">
+THREE</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 09:56 PM</span>
+<div class="msg-content">
+THERE MIGHT AS WELL BE...<br />500 MUSTACHES</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">15-May-18 09:56 PM</span>
+<div class="msg-content">
+take it easy Patrick<span class="msg-edited" title="15-May-18 09:56 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 09:56 PM</span>
+<div class="msg-content">
+Fine...We&#39;ll settle for one</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">15-May-18 09:56 PM</span>
+<div class="msg-content">
+No one saw Patrich</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:57 PM</span>
+<div class="msg-content">
+No</div>
+<div class="msg-content">
+Mush was onto something</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">15-May-18 09:57 PM</span>
+<div class="msg-content">
+Any way, I gotta go afk for a bit, please direct all complaints to <span class="mention" title="Mbork#9088">@Mbork</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:57 PM</span>
+<div class="msg-content">
+5,000 mushtaches<br /><br />boom.<br />mushroom mustaches</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/131283125383856128/0467334df4327b795d491599e100917c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Mbork#9088">Mbork</span>
+<span class="msg-date">15-May-18 09:58 PM</span>
+<div class="msg-content">
+<i>This is me</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 09:58 PM</span>
+<div class="msg-content">
+waluigi shoots the sniper</div>
+<div class="msg-content">
+boom</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 10:06 PM</span>
+<div class="msg-content">
+Mario Badmiton sounds surprisingly fun</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 10:08 PM</span>
+<div class="msg-content">
+Well let&#39;s see if they can get tennis right first</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 10:11 PM</span>
+<div class="msg-content">
+Mario Bowling</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 10:13 PM</span>
+<div class="msg-content">
+<a href="https://youtu.be/JM6vp4r_hvM?t=4m20s">https://youtu.be/JM6vp4r_hvM?t=4m20s</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">15-May-18 10:13 PM</span>
+<div class="msg-content">
+The next Mario sports game: <a href="https://en.wikipedia.org/wiki/Extreme_ironing">https://en.wikipedia.org/wiki/Extreme_ironing</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">15-May-18 10:14 PM</span>
+<div class="msg-content">
+lol</div>
+<div class="msg-content">
+You know what I want</div>
+<div class="msg-content">
+EXTREME CROQUET</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">15-May-18 10:16 PM</span>
+<div class="msg-content">
+this</div>
+<div class="msg-content">
+you take some croquet rings and hammers and balls to weird locations and play</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/149762680511660032/2a0a0c82757cae7df4ab140e5c7fe7f3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="YoungeLink4200#7438">YoungeLink4200</span>
+<span class="msg-date">16-May-18 08:25 PM</span>
+<div class="msg-content">
+extreme waffle making.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/240331919458435082/68633c3cdbd1a03f5879d7759ea32282.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="The Goat Tsar#9621">The Goat Tsar</span>
+<span class="msg-date">16-May-18 08:45 PM</span>
+<div class="msg-content">
+Take my money</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">16-May-18 08:51 PM</span>
+<div class="msg-content">
+Do you ever stop to think about how Super Mario Sunshine would have actually been like</div>
+<div class="msg-content">
+From the Spaceworld trailer</div>
+<div class="msg-content">
+It looked <i>sooooo</i> much different</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/242462158590443522/9cb9696fcc896ad564f498ef517d1bc8.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ShaduPanda#6818">ShaduPanda</span>
+<span class="msg-date">16-May-18 08:51 PM</span>
+<div class="msg-content">
+that hub world though</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">16-May-18 09:22 PM</span>
+<div class="msg-content">
+<a href="https://youtu.be/r7Z9MzMg9vM">https://youtu.be/r7Z9MzMg9vM</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/135237466096402432/2019ea6082a8612732e29a73c3d84b08.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Bootleg Jones#5977">Bootleg Jones</span>
+<span class="msg-date">17-May-18 05:07 PM</span>
+<div class="msg-content">
+I am disappointed we didn&#39;t get a giant chestnut with legs in the final build of Sunshine...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/273241231071641601/d0df95740b4fddd702cc63ed4b20ac8c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tay#405">tay</span>
+<span class="msg-date">17-May-18 05:07 PM</span>
+<div class="msg-content">
+me too</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/421178943505170442/463df59b609870d4149d117430562548.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Multi (FusionDragoon)#3661">Multi (FusionDragoon)</span>
+<span class="msg-date">19-May-18 12:01 AM</span>
+<div class="msg-content">
+The Hub World from Space World SMS looks so big and I would&#39;ve loved to explore that as a kid</div>
+<div class="msg-content">
+Man wish that there a recreation of that plaza and implememted into Sunshine<span class="msg-edited" title="19-May-18 12:02 AM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/1.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="J4N#1706">J4N</span>
+<span class="msg-date">19-May-18 08:27 AM</span>
+<div class="msg-content">
+&quot;Backwards Mario Sunshine secret Levels&quot; is a really particular challenge<img class="emoji" title=":MarioSurprisedFace:" src="https://cdn.discordapp.com/emojis/422079496573943809.png" /></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">19-May-18 09:02 AM</span>
+<div class="msg-content">
+Backwards long jump across all se-- oh wait that&#39;s the wrong game</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/1.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="J4N#1706">J4N</span>
+<span class="msg-date">20-May-18 01:45 PM</span>
+<div class="msg-content">
+XD</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:37 PM</span>
+<div class="msg-content">
+Question for all: If Super Mario Sunshine were to get a sequel, what would your ideal gameplay be?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:38 PM</span>
+<div class="msg-content">
+DIFFICULT<br />: P</div>
+<div class="msg-content">
+But actually that&#39;s a hard question...like what in the gameplay of Sunshine do I really want chnaged?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:39 PM</span>
+<div class="msg-content">
+Well</div>
+<div class="msg-content">
+I think the extra rocket packs should just be permanent upgrades</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:39 PM</span>
+<div class="msg-content">
+Yeah the game is janky in <s>some</s> a lot of areas, but that gives it it&#39;s charm in many ways</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:40 PM</span>
+<div class="msg-content">
+I like the idea of like</div>
+<div class="msg-content">
+Making a mess while also cleaning it</div>
+<div class="msg-content">
+Like being able to shoot goo that can congeal into platforms on he sides of walls</div>
+<div class="msg-content">
+So that levels can be more open world like Odyssey</div>
+<div class="msg-content">
+I&#39;m worried it will get the &quot;Paper Mario&quot; treatment though</div>
+<div class="msg-content">
+Where every level will just be cleaning stuff</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:42 PM</span>
+<div class="msg-content">
+Every level in Sunshine was cleaning stuff, though. XD</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:42 PM</span>
+<div class="msg-content">
+There was literally no cleaning levels in Gelato Beach</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:42 PM</span>
+<div class="msg-content">
+Like, the <i>story</i> is cleaning stuff.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:42 PM</span>
+<div class="msg-content">
+Unless I&#39;m forgetting</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:42 PM</span>
+<div class="msg-content">
+But you can clean the Cataquacks and Plungelos.</div>
+<div class="msg-content">
+:P</div>
+<div class="msg-content">
+And the people, of course.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:42 PM</span>
+<div class="msg-content">
+That&#39;s kind of just defeating enemies though</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:42 PM</span>
+<div class="msg-content">
+And the squiggly thing.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:43 PM</span>
+<div class="msg-content">
+And <s>hell incarnate</s> the sand bird</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:44 PM</span>
+<div class="msg-content">
+Sand bird is easy.<br />Until you jump back on thinking it will just keep climbing up and up when instead it swoops back down to climb up again.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:44 PM</span>
+<div class="msg-content">
+Sand bird would be more tolerable if it was just thicker</div>
+<div class="msg-content">
+Like</div>
+<div class="msg-content">
+When it goes sideways</div>
+<div class="msg-content">
+The platforms are a lot thinner than normal sand blocks</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/82881502009884672/88b822806c9a687f175df8d82b94a85e.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chris|RY3NO#678">Chris|RY3NO</span>
+<span class="msg-date">21-May-18 01:45 PM</span>
+<div class="msg-content">
+Sandbird isn’t too bad</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:45 PM</span>
+<div class="msg-content">
+It&#39;s not super bad</div>
+<div class="msg-content">
+Just a little frustrating</div>
+<div class="msg-content">
+In design</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:45 PM</span>
+<div class="msg-content">
+Just gotta take it slow, is all.<br />Like how slow it climbs the tower.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/82881502009884672/88b822806c9a687f175df8d82b94a85e.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chris|RY3NO#678">Chris|RY3NO</span>
+<span class="msg-date">21-May-18 01:45 PM</span>
+<div class="msg-content">
+Jumping is a little difficult</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:46 PM</span>
+<div class="msg-content">
+Jumping on moving platforms in general is a bit iffy in Sunshine though</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/82881502009884672/88b822806c9a687f175df8d82b94a85e.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chris|RY3NO#678">Chris|RY3NO</span>
+<span class="msg-date">21-May-18 01:46 PM</span>
+<div class="msg-content">
+Sandbird turbo nozzle challenge</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:46 PM</span>
+<div class="msg-content">
+Pffff.</div>
+<div class="msg-content">
+#RunningManSandBird.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/82881502009884672/88b822806c9a687f175df8d82b94a85e.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chris|RY3NO#678">Chris|RY3NO</span>
+<span class="msg-date">21-May-18 01:47 PM</span>
+<div class="msg-content">
+I’d love to see a TAS of that</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:47 PM</span>
+<div class="msg-content">
+Yeah just don&#39;t jump on the Sand Bird and you good</div>
+<div class="msg-content">
+The changes that come to my mind are: all levels have a few open-ended shines, and that either the secret-boxes are really difficult, or a few at the end of the game are. Also let&#39;s make blue coins more like the green stars in Galaxy rather than the extra moons at the end of Odyssey.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:48 PM</span>
+<div class="msg-content">
+Fun fact: If you hold down R <i>very slightly</i>, Mario will start running with the Turbo Nozzle, but nothing else will happen.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:48 PM</span>
+<div class="msg-content">
+I like the blue coins frankly</div>
+<div class="msg-content">
+What I don&#39;t like is</div>
+<div class="msg-content">
+One or two blue coins only appearing in a single act</div>
+<div class="msg-content">
+But you don&#39;t know which act</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:48 PM</span>
+<div class="msg-content">
+Blue coins are why I like the game so much</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:48 PM</span>
+<div class="msg-content">
+If blue coins each had names like</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:48 PM</span>
+<div class="msg-content">
+Oh yeah though</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:48 PM</span>
+<div class="msg-content">
+&quot;Atop Riccos Lighthouse&quot;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:48 PM</span>
+<div class="msg-content">
+That&#39;s bad</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:48 PM</span>
+<div class="msg-content">
+They&#39;d be much more tolerable</div>
+<div class="msg-content">
+Blue coins are like elevator buttons</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:49 PM</span>
+<div class="msg-content">
+I mean, some way to track which Episodes had Blue Coins left for you to find would have been nice.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:49 PM</span>
+<div class="msg-content">
+The sound when you collect them is nice</div>
+<div class="msg-content">
+And they&#39;re BLUE COINS</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/82881502009884672/88b822806c9a687f175df8d82b94a85e.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chris|RY3NO#678">Chris|RY3NO</span>
+<span class="msg-date">21-May-18 01:49 PM</span>
+<div class="msg-content">
+Oh yeah the blue coins need to come back if we were to get another sunshine</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:49 PM</span>
+<div class="msg-content">
+A fun theory about Mario Sunshine claims that the entire game is a TV series and frankly... It makes sense, to be honest.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:50 PM</span>
+<div class="msg-content">
+Like what would be easier</div>
+<div class="msg-content">
+5 blue coins per act</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:50 PM</span>
+<div class="msg-content">
+The theory at least would explain some of the BS logic Isle Delfino runs on...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:50 PM</span>
+<div class="msg-content">
+And it tells you how many you collected in each act</div>
+<div class="msg-content">
+Or just have access to all 40 out of the gate</div>
+<div class="msg-content">
+Shadow Mario is the Shadow the Hedgehog of Mario</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:51 PM</span>
+<div class="msg-content">
+Or Piantas are just bad governemnt operators since they never had any problems before.<span class="msg-edited" title="21-May-18 01:51 PM">(edited)</span></div>
+<div class="msg-content">
+That&#39;s what I like to think it is</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:51 PM</span>
+<div class="msg-content">
+They got infected by giant bloopers not once</div>
+<div class="msg-content">
+Not twice</div>
+<div class="msg-content">
+But three times</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:52 PM</span>
+<div class="msg-content">
+I mean, maybe.<br />But then how do you explain Petey Piranha returning and Gooper Blooper being on top of a <i>cliff</i> in Noki Bay after getting his butt handed to him twice before?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:52 PM</span>
+<div class="msg-content">
+Also question</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:52 PM</span>
+<div class="msg-content">
+The text suggests that Gooper Blooper never happened until the island got dirty though.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:52 PM</span>
+<div class="msg-content">
+You know in Act 1 of Bianco Hills</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:53 PM</span>
+<div class="msg-content">
+Plus <i><b>Episodes</b></i>.<br />It&#39;s right in the name, that one...</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:53 PM</span>
+<div class="msg-content">
+The little worm goop thing</div>
+<div class="msg-content">
+It spits out balls</div>
+<div class="msg-content">
+When I was a kid, I always wondered what it&#39;s spitting out</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:53 PM</span>
+<div class="msg-content">
+The Goopy Piranhas.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:53 PM</span>
+<div class="msg-content">
+I could clean them off to some degree</div>
+<div class="msg-content">
+But they never did anything past that</div>
+<div class="msg-content">
+I know it&#39;s a Piranha Im wondering if fully cleaning them actually did anything</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:53 PM</span>
+<div class="msg-content">
+Petey Piranha heads.<br />That&#39;s what they are.<br />No joke. :I</div>
+<div class="msg-content">
+Cleaning them does absolutely nothing except reveal that... Disturbing fact.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:54 PM</span>
+<div class="msg-content">
+No I never noticed anything from cleaning them off</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">21-May-18 01:54 PM</span>
+<div class="msg-content">
+It doesn&#39;t even stop the goop spread.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:54 PM</span>
+<div class="msg-content">
+Actually PMushy</div>
+<div class="msg-content">
+I&#39;m not sure if this is me misremembering but</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:54 PM</span>
+<div class="msg-content">
+I&#39;m ready</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:54 PM</span>
+<div class="msg-content">
+I could swear when I&#39;ve as a kid</div>
+<div class="msg-content">
+I found some way to do the &quot;walking underwater&quot; glitch in Serena Beach</div>
+<div class="msg-content">
+In the outside portion</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:55 PM</span>
+<div class="msg-content">
+Hmmm</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:55 PM</span>
+<div class="msg-content">
+I can&#39;t remember how though.</div>
+<div class="msg-content">
+I <i><b>think</b></i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:56 PM</span>
+<div class="msg-content">
+BeaverThingify has an &quot;All Underwater Glitches&quot; video, I&#39;ll have to check that out to see if it&#39;s in there.<br />But Sirena Beach right now is under lock and key, gotta figure out how to break a lot of it</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:56 PM</span>
+<div class="msg-content">
+It was on act one and the manta rays hit me as I transitioned from close to the beach and in the water</div>
+<div class="msg-content">
+Maybe</div>
+<div class="msg-content">
+But I do remember running underwater there</div>
+<div class="msg-content">
+And some areas making Mario run super quick like some other walking underwater areas in other levels</div>
+<div class="msg-content">
+Of course I could be entirely wrong<span class="msg-edited" title="21-May-18 01:57 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:58 PM</span>
+<div class="msg-content">
+Well I have still have plenty of searching to do, so I&#39;ll be trying out a bunch of stuff</div>
+<div class="msg-content">
+And I&#39;ll give that a shot</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/82881502009884672/88b822806c9a687f175df8d82b94a85e.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chris|RY3NO#678">Chris|RY3NO</span>
+<span class="msg-date">21-May-18 01:58 PM</span>
+<div class="msg-content">
+I can’t really think of any glitches in Serena beach tbh</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:59 PM</span>
+<div class="msg-content">
+<a href="https://youtu.be/yBYsQPcijLM">https://youtu.be/yBYsQPcijLM</a></div>
+<div class="msg-content">
+So there <i>is</i> a way</div>
+<div class="msg-content">
+I was actually gonna suggest maybe I used a barrel</div>
+<div class="msg-content">
+But</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 01:59 PM</span>
+<div class="msg-content">
+Barrels. I figured barrels</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 01:59 PM</span>
+<div class="msg-content">
+I forget if you mentioned the invisible barrel in your Ricco Harbour episode</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 02:00 PM</span>
+<div class="msg-content">
+Now to try and see if I can use a barrel to clip through a wall</div>
+<div class="msg-content">
+No I did not.</div>
+<div class="msg-content">
+Somehow I didn&#39;t see that video</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 02:00 PM</span>
+<div class="msg-content">
+How many comments did you get saying you missed it lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 02:00 PM</span>
+<div class="msg-content">
+But really if you aren&#39;t looking at the game files, how you gonna know?</div>
+<div class="msg-content">
+Like three, but the one had a bunch of upvotes</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 02:02 PM</span>
+<div class="msg-content">
+Barrels in general I&#39;ve found been always kinda glitchy</div>
+<div class="msg-content">
+Even in normal gameplay</div>
+<div class="msg-content">
+Sometimes the water particles just fail to spawn at all</div>
+<div class="msg-content">
+And then the ground gets magically wet</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 02:03 PM</span>
+<div class="msg-content">
+The hit box isn&#39;t even right when you set them back down<span class="msg-edited" title="21-May-18 02:03 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">21-May-18 02:03 PM</span>
+<div class="msg-content">
+I vaguely remember that</div>
+<div class="msg-content">
+Welp time to get back to mowing</div>
+<div class="msg-content">
+This was a fun little chat</div>
+<div class="msg-content">
+Bye bye!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">21-May-18 02:05 PM</span>
+<div class="msg-content">
+&#128075;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/212698163860078592/64098f1103b3694256b2ca622f7631d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="haku-skrub#3407">haku-skrub</span>
+<span class="msg-date">22-May-18 07:54 AM</span>
+<div class="msg-content">
+I have found that if the fade out transition does not appear when collecting FLUDD, and you mash &quot;A&quot;, you will make the game soft reset itself. Just thought that may be interesting to y&#39;all.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">22-May-18 08:55 PM</span>
+<div class="msg-content">
+so like</div>
+<div class="msg-content">
+if you get fludd in the inferno level of Pianta Village</div>
+<div class="msg-content">
+you  can do that?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/212698163860078592/64098f1103b3694256b2ca622f7631d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="haku-skrub#3407">haku-skrub</span>
+<span class="msg-date">23-May-18 08:26 AM</span>
+<div class="msg-content">
+Nope. Only when you first get FLUDD in the Airstrip</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:48 PM</span>
+<div class="msg-content">
+just now read the chat from the other day about what we&#39;d like in an SMS sequel<br />personally SMS is nearly perfect in my mind (i know there are a few things to nitpick) but honestly the game just needs to be longer?? I watched a review I really agreed with; it compared SMS&#39;s 10-ish levels  (i forgot how many there are) to SM64 and obviously there is a really big difference, not just in length but also in difficulty in the later levels<br />(the guy also added that, considering how short SMS is and how lame the final level/boss is, it literally just seems like an unfinished game yknow)<br />but anyway, if there were to be an SMS sequel, all i would personally want would be for it to be longer</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+I think SMS is not perfect</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+thinking about extra stuff though (instead of just fixing things in the original game) a desert level where you make platforms out of plants (by spraying them with water) would be super cool</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+I&#39;m just nostalgic for it</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+I think a lot of sunshine could be improved if there wasnt so much padding</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+yeah, i know it&#39;s not perfect</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+<i>stares at the blue coins</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+I actually like blue coins</div>
+<div class="msg-content">
+now how they&#39;re handled though</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:49 PM</span>
+<div class="msg-content">
+I really like the blue coins but better counters would be good</div>
+<div class="msg-content">
+yeah</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">24-May-18 06:50 PM</span>
+<div class="msg-content">
+I&#39;m fine with there being a lot of mini collectables</div>
+<div class="msg-content">
+yeah exactly</div>
+<div class="msg-content">
+If each blue coin had a little name kinda like Odyssey&#39;s moons like</div>
+<div class="msg-content">
+in Pianta Village</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:50 PM</span>
+<div class="msg-content">
+i don&#39;t mind having to look up walkthroughs for them but not knowing which ones I&#39;ve gotten already and which I haven&#39;t makes it really annoying</div>
+<div class="msg-content">
+yeahh</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/154328456757379072/a_b491df1b6d58f242830fed275c0c39ee.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Fira#1">Fira</span>
+<span class="msg-date">24-May-18 06:50 PM</span>
+<div class="msg-content">
+&quot;Shoot for the Moon on the Golden Shroom&quot;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:50 PM</span>
+<div class="msg-content">
+exactly</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 06:51 PM</span>
+<div class="msg-content">
+If the blue coins gave you something special for collecting then like alternate costumes then i wpuldnt mind so much</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:51 PM</span>
+<div class="msg-content">
+alternate costumes in SMS would be great lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 06:52 PM</span>
+<div class="msg-content">
+They artificially padded out the amount of ahines to match the stars in 64</div>
+<div class="msg-content">
+I think they should have focussed more on making collecting the shines more enjoyable and giving a bigger reward for getting 100%</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:53 PM</span>
+<div class="msg-content">
+IT DEFINITELY NEEDED A BIGGER REWARD....</div>
+<div class="msg-content">
+my bro and i were so disappointed lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 06:53 PM</span>
+<div class="msg-content">
+I never got 100% so i was never upset lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/212698163860078592/64098f1103b3694256b2ca622f7631d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="haku-skrub#3407">haku-skrub</span>
+<span class="msg-date">24-May-18 06:54 PM</span>
+<div class="msg-content">
+<img class="emoji" title=":Sunshine:" src="https://cdn.discordapp.com/emojis/436976323479732244.png" /> <img class="emoji" title=":Sunshine:" src="https://cdn.discordapp.com/emojis/436976323479732244.png" /> <img class="emoji" title=":Sunshine:" src="https://cdn.discordapp.com/emojis/436976323479732244.png" /></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 06:55 PM</span>
+<div class="msg-content">
+100% luigi shows up and you fly home</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:55 PM</span>
+<div class="msg-content">
+yeS</div>
+<div class="msg-content">
+SMS 2 absolutely needs luigi</div>
+<div class="msg-content">
+and</div>
+<div class="msg-content">
+waluigi</div>
+<div class="msg-content">
+actually</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 06:56 PM</span>
+<div class="msg-content">
+<s>mario odyssey</s></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270056088852758538/1c26567a0395f047b4ecf769dd3657fd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="fedoramoron#969">fedoramoron</span>
+<span class="msg-date">24-May-18 06:56 PM</span>
+<div class="msg-content">
+i just want to play as waluigi</div>
+<div class="msg-content">
+SWS</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 06:56 PM</span>
+<div class="msg-content">
+1. Has luigi</div>
+<div class="msg-content">
+2. Waluigi costume</div>
+<div class="msg-content">
+3. Sunshine references (sunshine outfit)</div>
+<div class="msg-content">
+I genuinely think well be seeing a sunshine dlc pack for odyssey at e3</div>
+<div class="msg-content">
+Considering the dolphine island in some of the early screens and the costume</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">24-May-18 09:12 PM</span>
+<div class="msg-content">
+and isle delfino being on the globe</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">24-May-18 09:19 PM</span>
+<div class="msg-content">
+Thats what i just said</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/391713010948898816/e7d14fa3248622faf9ddf082273ece79.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chain Champ#3853">Chain Champ</span>
+<span class="msg-date">25-May-18 03:41 AM</span>
+<div class="msg-content">
+At some point in my life I actually want to make a video of the top 10 things I want in SMS 2. It&#39;s a good game but there&#39;s too much filler, the story barely exists and there&#39;s no reason to collect the plaza shines, blue coins and the other extra shines unless you&#39;re going for 100%.<br />But it&#39;s still one of my personal favorites, which is why I want a sequel (even though I probably won&#39;t be able to play it as I don&#39;t own a switch or new 3ds)</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">25-May-18 05:36 AM</span>
+<div class="msg-content">
+if hacking for the game ever kicks off I&#39;d like to do a &quot;Super mario sunshine fixed edition&quot;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/135237466096402432/2019ea6082a8612732e29a73c3d84b08.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Bootleg Jones#5977">Bootleg Jones</span>
+<span class="msg-date">25-May-18 05:10 PM</span>
+<div class="msg-content">
+Personally, I think if Nintendo made Super Mario Odyssey 2 at some point it should definitely have F.L.U.D.D. as a temporary powerup in certain areas (temporary as in only for that area). Having it all the time could limit the level design too much in my opinion, and as fun as Sunshine is I don&#39;t really need a full sequel to it personally. <br /><br />The only real issue I see with F.L.U.D.D. being used for only certain areas is the controls. They would either become more complex (or at least significantly different) for just those areas, or they&#39;d need to be simplified to the point that it may just not feel like Sunshine at all.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">25-May-18 05:48 PM</span>
+<div class="msg-content">
+idea</div>
+<div class="msg-content">
+maybe when you use fludd, you can&#39;t use cappy because his <br /><br />&quot;Fear...of that...THING!&quot;<br /><br />bonus idea when you use fludd mario gets short sleeves</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">25-May-18 07:29 PM</span>
+<div class="msg-content">
+I would think FLUDD is just incompatible with Cappy becauce cap jumps into hovering would be OP as sin.</div>
+<div class="msg-content">
+However, if you want to drop FLUDD off anywhere, you can just crouch to pop it off, then when you want to get going, just grab n&#39; go.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/212698163860078592/64098f1103b3694256b2ca622f7631d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="haku-skrub#3407">haku-skrub</span>
+<span class="msg-date">25-May-18 07:29 PM</span>
+<div class="msg-content">
+Too OP, pls nerf</div>
+<div class="msg-content">
+Or it could be one or the other</div>
+<div class="msg-content">
+Hover and dive, or cappy dive and dive</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">25-May-18 07:30 PM</span>
+<div class="msg-content">
+I just wonder what the advantage of Fludd would be in that scenario, though?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/212698163860078592/64098f1103b3694256b2ca622f7631d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="haku-skrub#3407">haku-skrub</span>
+<span class="msg-date">25-May-18 07:30 PM</span>
+<div class="msg-content">
+Spray in mid-dive?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">25-May-18 07:31 PM</span>
+<div class="msg-content">
+You mean like dive-hover-dive or something?<span class="msg-edited" title="25-May-18 07:31 PM">(edited)</span></div>
+<div class="msg-content">
+Because unless Mario can slide around with water, I don&#39;t know why spraying would be added.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/212698163860078592/64098f1103b3694256b2ca622f7631d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="haku-skrub#3407">haku-skrub</span>
+<span class="msg-date">25-May-18 07:31 PM</span>
+<div class="msg-content">
+Nope. You can just use the spray nozzle while diving to make an upwards arch of water</div>
+<div class="msg-content">
+Cleaning off goop for progression?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">25-May-18 07:32 PM</span>
+<div class="msg-content">
+Lol.<br />Bowser Jr. at it again?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/212698163860078592/64098f1103b3694256b2ca622f7631d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="haku-skrub#3407">haku-skrub</span>
+<span class="msg-date">25-May-18 07:32 PM</span>
+<div class="msg-content">
+Or perhaps Mr. Squid with 200 IQ?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">25-May-18 07:33 PM</span>
+<div class="msg-content">
+Or, just maybe, they&#39;ll actually stick with continuity and Il Piantissimo will be up to something fishy!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/212698163860078592/64098f1103b3694256b2ca622f7631d0.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="haku-skrub#3407">haku-skrub</span>
+<span class="msg-date">25-May-18 07:34 PM</span>
+<div class="msg-content">
+Oof</div>
+<div class="msg-content">
+Or.</div>
+<div class="msg-content">
+Mega Goomba</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143180973297631233/1789d4d2f83d9bbcc5be6d4e7c63ea07.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Dar&#39;Karon#4956">Dar&#39;Karon</span>
+<span class="msg-date">25-May-18 07:35 PM</span>
+<div class="msg-content">
+Lol. What is it with you and random enemies?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 04:25 PM</span>
+<div class="msg-content">
+guys</div>
+<div class="msg-content">
+this channels going away soon</div>
+<div class="msg-content">
+rip. Mario Sunshine channe;</div>
+<div class="msg-content">
+it will be missed</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">30-May-18 04:25 PM</span>
+<div class="msg-content">
+Wait what?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 04:26 PM</span>
+<div class="msg-content">
+isnt this the game of the month channel</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">30-May-18 04:26 PM</span>
+<div class="msg-content">
+Oh I see</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">30-May-18 04:26 PM</span>
+<div class="msg-content">
+Yeah less than two days</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/82881502009884672/88b822806c9a687f175df8d82b94a85e.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chris|RY3NO#678">Chris|RY3NO</span>
+<span class="msg-date">30-May-18 04:42 PM</span>
+<div class="msg-content">
+oooooo I wonder what the next game will be!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 04:43 PM</span>
+<div class="msg-content">
+probably <img class="emoji" title=":UncleButters:" src="https://cdn.discordapp.com/emojis/444929439533629441.png" /><span class="msg-edited" title="30-May-18 04:43 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/198177411760652288/57fb44e1ef577627973c9f0592fe920c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Lavander#7183">Lavander</span>
+<span class="msg-date">30-May-18 05:01 PM</span>
+<div class="msg-content">
+Eustaces haunted mansion</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 05:01 PM</span>
+<div class="msg-content">
+getting ghosts off his darned property</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/198177411760652288/57fb44e1ef577627973c9f0592fe920c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Lavander#7183">Lavander</span>
+<span class="msg-date">30-May-18 05:01 PM</span>
+<div class="msg-content">
+GHOSTS, GHOSTS IN MY HOUSE</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 05:01 PM</span>
+<div class="msg-content">
+someone with any semblance of modding ability make this happen</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/270741460473741312/846d74f52c5c9d242de26d31d851dc63.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="TronmernCutsman#2935">TronmernCutsman</span>
+<span class="msg-date">30-May-18 05:02 PM</span>
+<div class="msg-content">
+what</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 05:03 PM</span>
+<div class="msg-content">
+make eustaces haunted mansion</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/82881502009884672/88b822806c9a687f175df8d82b94a85e.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Chris|RY3NO#678">Chris|RY3NO</span>
+<span class="msg-date">30-May-18 05:03 PM</span>
+<div class="msg-content">
+Time to get my poltergust 3000!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">30-May-18 05:03 PM</span>
+<div class="msg-content">
+(c&quot; ತ,_ತ)</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 05:04 PM</span>
+<div class="msg-content">
+no</div>
+<div class="msg-content">
+the poltergust is his newspaper</div>
+<div class="msg-content">
+dont ask how or why</div>
+<div class="msg-content">
+it just is</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/198177411760652288/57fb44e1ef577627973c9f0592fe920c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Lavander#7183">Lavander</span>
+<span class="msg-date">30-May-18 05:14 PM</span>
+<div class="msg-content">
+The Polter Mallet 5000</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 05:15 PM</span>
+<div class="msg-content">
+^^^^^^^^^^^^^^^^^^^^^^^^^</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/198177411760652288/57fb44e1ef577627973c9f0592fe920c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Lavander#7183">Lavander</span>
+<span class="msg-date">30-May-18 05:15 PM</span>
+<div class="msg-content">
+STUPID GHOSTS YOU MAKE ME LOOK BAD</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">30-May-18 05:15 PM</span>
+<div class="msg-content">
+(c&quot; ತ,_ತ)</div>
+<div class="msg-content">
+<i>Why</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">30-May-18 05:15 PM</span>
+<div class="msg-content">
+what are the element powers like</div>
+<div class="msg-content">
+how would they work</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/198177411760652288/57fb44e1ef577627973c9f0592fe920c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Lavander#7183">Lavander</span>
+<span class="msg-date">30-May-18 05:29 PM</span>
+<div class="msg-content">
+Why not?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 06:46 PM</span>
+<div class="msg-content">
+guys todays the last day</div>
+<div class="msg-content">
+say goodbye to this chat</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 06:46 PM</span>
+<div class="msg-content">
+Bye chat</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 06:46 PM</span>
+<div class="msg-content">
+we had good memories in it;-;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 06:46 PM</span>
+<div class="msg-content">
+(&#180;ω`)</div>
+<div class="msg-content">
+(&#180;&#176;̥̥̥ω&#176;̥̥̥｀) R I P</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 06:47 PM</span>
+<div class="msg-content">
+unless this channel becomes enshrined</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/164921568307314688/211b8c2eb25e1506eb7cc710a929969c.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Creeper 41#1044">Creeper 41</span>
+<span class="msg-date">31-May-18 06:57 PM</span>
+<div class="msg-content">
+before it leaves us we must pay respects and give it one last good message</div>
+<div class="msg-content">
+who would like to do the honor of the last great message?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/138121107352846336/f0c6fa4930b9983d94f435474be1d814.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Soup#3230">Soup</span>
+<span class="msg-date">31-May-18 07:17 PM</span>
+<div class="msg-content">
+<div class="pre">    What more can we say than thank you? You&#39;ve given us some memories that keep us coming back again and again to revisit you, old friend. Who could forget hovering roof-top to roof-top as an acrobatic Italian plumber in the tropics? Or surfing on squids? Or spraying random plant-people in the face with high-velocity water? Or the Doot Doot Sisters? On top of those fond memories, you&#39;ve given us Particular Mushroom and this server. But most importantly, you&#39;ve given us the legendary Duck Ring Riders by extension. And for that, we thank you Sunshine.<br />        Love,<br />            Every spiritual Duck Ring Rider</div></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 07:18 PM</span>
+<div class="msg-content">
+lol</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">31-May-18 07:18 PM</span>
+<div class="msg-content">
+So whos next</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 07:18 PM</span>
+<div class="msg-content">
+<i>very lovely</i> xD</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/144688899745251328/a_137da4fecceebf4df86b98800cae7756.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Renhoek#1">Renhoek</span>
+<span class="msg-date">31-May-18 07:18 PM</span>
+<div class="msg-content">
+<s>Could you tell i dont like sumshine</s></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 11:36 PM</span>
+<div class="msg-content">
+soup, thanak you for spaking on the behalf of the DRR</div>
+<div class="msg-content">
+and thank everyone for enjoying this wonderful channel experience with me<br />this game will be missed.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">31-May-18 11:37 PM</span>
+<div class="msg-content">
+If you&#39;ve got anything else to say about Super Mario Sunshine, now is the time. Last call!</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 11:37 PM</span>
+<div class="msg-content">
+Bye!</div>
+<div class="msg-content">
+（；＿；）</div>
+<div class="msg-content">
+xD</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 11:38 PM</span>
+<div class="msg-content">
+THIS GAME IS AMAZING AND I WILL MISS IT</div>
+<div class="msg-content">
+IT WAS MY HOME</div>
+<div class="msg-content">
+MY HARDBOR</div>
+<div class="msg-content">
+MY DUCK RING</div>
+<div class="msg-content">
+;-;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 11:38 PM</span>
+<div class="msg-content">
+ITTLLL BEEE OKAY!!</div>
+<div class="msg-content">
+( T_T)＼(^-^ )</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 11:40 PM</span>
+<div class="msg-content">
+AAAAAAAAA</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 11:41 PM</span>
+<div class="msg-content">
+<i>pat pat</i></div>
+<div class="msg-content">
+lol</div>
+<div class="msg-content">
+( T_T)＼(^-^ )</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 11:41 PM</span>
+<div class="msg-content">
+i dun wan it to  goO</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 11:42 PM</span>
+<div class="msg-content">
+<i>it will be with you forever in your heart</i></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 11:42 PM</span>
+<div class="msg-content">
+idea</div>
+<div class="msg-content">
+lets start a petition to make a permanent <span class="mention">#super-mario-sunshine</span> channel</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/230164575322898433/43bbc46a6421c076a431348565b0afa2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Shyer#1562">Shyer</span>
+<span class="msg-date">31-May-18 11:42 PM</span>
+<div class="msg-content">
+Oh~~~</div>
+<div class="msg-content">
+o(^-^)o</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/434160157992288278/261e3700ad180dad6820394a25ef21cc.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="ChaoGardener#1643">ChaoGardener</span>
+<span class="msg-date">31-May-18 11:45 PM</span>
+<div class="msg-content">
+WE NEED TO MAKE THE #PETITION CHANNEL FOR THESE EVENTS</div>
+<div class="msg-content">
+RAA</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/142063102773428225/ec09fc3e5d981618337330fe53e8afe6.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="MasterWario#4547">MasterWario</span>
+<span class="msg-date">31-May-18 11:56 PM</span>
+<div class="msg-content">
+The Super Mario Sunshine channel is now closed. It will remain here as a record for one more month, until the next game of the month rolls around. Then this channel will be removed and the same treatment will happen to the next game of the month.</div>
+<div class="msg-content">
+Pinned a message.</div>
+</div>
+</div>
+</div>
+</body>
+</html>
